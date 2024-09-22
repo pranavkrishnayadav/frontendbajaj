@@ -1,0 +1,79 @@
+/* Container for the form */
+.input-form-container {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label for textareas and select boxes */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Styling the textarea */
+  .json-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for submit button */
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2E77D0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the error text */
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Response Section Styling */
+  .filtered-response {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the response text */
+  .filtered-response pre {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* Styling the React Select component */
+  .css-2b097c-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .css-1okebmr-indicatorSeparator {
+    display: none; /* Hide separator */
+  }
+  
+  .css-319lph-ValueContainer {
+    padding: 8px 12px; /* Increase padding */
+  }
+  
